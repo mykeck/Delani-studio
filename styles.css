@@ -3,3 +3,16 @@
     text-align: center;
     color: white;
 }
+.about{
+    text-align: center;
+}
+.services{
+    background: url("assets/backgrounds/s_image.jpg");
+    text-align: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
