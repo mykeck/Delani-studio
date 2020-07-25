@@ -1,4 +1,14 @@
-$(document).ready(function)
-$("button").click(function(){
-    $("DESIGN").toggle();
+$(document).ready(function(){
+    $(".design").click(function(){
+      $("#design").toggle();
+    });
+    $(".development").click(function(){
+        $("#development").toggle();
+      });
+      $(".development").click(function(){
+        $("#development").toggle();
+      });
+      $(".management").click(function(){
+        $("#management").toggle();
+      });
   });
