@@ -1,14 +1,26 @@
 $(document).ready(function(){
     $(".design").click(function(){
       $("#design").toggle();
+      $(".design").toggle()
+    });
+    $("#design").click(function(){
+      $("#design").toggle();
+      $(".design").toggle()
     });
     $(".development").click(function(){
         $("#development").toggle();
+        $(".development").toggle();
       });
-      $(".development").click(function(){
+      $("#development").click(function(){
         $("#development").toggle();
+        $(".development").toggle();
       });
       $(".management").click(function(){
         $("#management").toggle();
+        $(".management").toggle();
+      });
+      $("#management").click(function(){
+        $("#management").toggle();
+        $(".management").toggle();
       });
   });

@@ -27,3 +27,12 @@ h5{
     align-items: center;
     
 }
+#design{
+    display: none;
+}
+#development{
+    display: none;
+}
+#management{
+    display: none;
+}
