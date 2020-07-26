@@ -57,5 +57,8 @@ h4{
 }
 .contactus{
     background: url("assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
 
 }
