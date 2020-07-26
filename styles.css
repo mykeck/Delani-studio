@@ -60,5 +60,15 @@ h4{
     background-size: cover;
     background-position: center;
     height: 70vh;
-
+    
+}
+.work{
+    position: relative;   
+}
+.paragraph{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+    background-color: teal;
 }
