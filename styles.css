@@ -36,3 +36,22 @@ h5{
 #management{
     display: none;
 }
+.outer-grid{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0.5px;
+}
+.inner-grid{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0.4px;
+}
+.inner-grid img{
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+
+}
+h4{
+    text-align: center;
+}
