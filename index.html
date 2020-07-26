@@ -110,24 +110,36 @@
         </div>
     </div>
 </div>
-    <div class="contactus">
-        <h1>CONTACT US</h1>
-        <form >
-            <div class="form">
-                <input id="name" class="flex" type="text" placeholder="Name.." required>
+   <div class="container-fluid contact">
+    <h2>CONTACT US</h2>
+    <form id="formValidity" action="http://eepurl.com/g_g9kL" method="POST">
+      <input type="hidden" name="u" value="/">
+      <input type="hidden" name="id" value="email">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control" placeholder = "Name...." name="merge1" id="merge1" size="25" value="" required>
+        <input type="email" class="form-control"  placeholder = "Email...." name="merge0" id="merge0" size="25" value="" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+      <!-- <button type="reset" class="btn btn-primary">Reset</button> -->
+    </form>
+  </div>
+   <footer>
+    <img src="./assets/social_icons/twitter.png" alt="twitter">
+    <img src="./assets/social_icons/dribble.png" alt="dribble">
+    <img src="./assets/social_icons/facebook.png" alt="facebook">
+    <img src="./assets/social_icons/g_plus.png" alt="g_plus">
+    <img src="./assets/social_icons/skype.png" alt="skype">
+    <img src="./assets/social_icons/stumble_upon.png" alt="stumble_upon">
+    <img src="./assets/social_icons/behance.png" alt="behance">
+    <img src="./assets/social_icons/pinterest.png" alt="pinterest">
+    <img src="./assets/social_icons/flickr.png" alt="flickr">
     
-                <input type="text" id="email" class="flex" placeholder="Email" required>
-            </div>
-            <div class="text">
-                <input id="msg" class="flex" type="text" placeholder="Your message here..." required>
-    
-            </div>
-            <div id="btn">
-                <button type="submit" onclick="myFunction()" id="submit" class="btn btn-success" preventDefault();>Submit</button>
-            </div>
-        </form>
-
-    </div>
+    <p>DELANI STUDIO</p>
+    <p>&copy; 2020 kiragumike@gmail.com</p>
+  </footer>
 
 
         </div>    
