@@ -105,7 +105,7 @@ h4{
   }
   input[type=text],input[type=email],#comment{
     background: transparent;
-    /* color: white; */
+    color: white;
     font-size: 20px;
     font-family: 'Copse', serif;
   }
@@ -128,6 +128,7 @@ h4{
     text-align: center; 
     padding-bottom: 30px;
     margin-bottom: 20px;
+    margin-left: 20vw;
   } 
     footer{
         text-align: center;
